@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Anime Universe</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        Anime-Stories
+      </div>
+      <div class="menu">
+        <a href="home.html">Home</a>
+        <a href="trending.html">Trending</a>
+        <a href="action.html">Action</a>
+        <a href="adventure.html">Adventure</a>
+        <a href="comedy.html">Comedy</a>
+		
+		
+      </div>
+      <div class="login-sign" onclick="showLoginForm()">
+        <a>Login/Sign in</a>
+      </div>
+    </nav>
+    <section class="h-txt">
+      <span>ENJOY</span>
+      <h1>Your Ultimate Anime Reading Escape</h1>
+      <br>
+      <a href="#">Explore, Read, & Get Lost in Stories</a>
+	  
+	  
+	  
+  
+
+    </section>
+  </header>
+
+  <!-- Login Form -->
+  <div id="loginForm" class="login-form">
+    <div class="close-btn" onclick="closeLoginForm()">X</div>
+    <h2>Login / Sign in</h2>
+    <!-- Your form fields go here -->
+    <form id="signInForm">
+      <label for="email">Email/Mobile:</label>
+      <input type="text" id="email" name="email" required>
+      <br>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
